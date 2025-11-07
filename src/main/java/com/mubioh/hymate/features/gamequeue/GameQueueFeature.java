@@ -9,7 +9,7 @@ public class GameQueueFeature implements Feature {
     public static final Map<String, String> GAME_MODE_COMMANDS = new LinkedHashMap<>();
 
     static {
-        GAME_MODE_COMMANDS.put("Skyblock", "skyblock");
+        GAME_MODE_COMMANDS.put("Skyblock", "sb");
 
         GAME_MODE_COMMANDS.put("The Pit", "pit");
 
