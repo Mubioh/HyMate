@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hymate",
+  "version": "${version}",
+  "name": "HyMate",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hymate/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mubioh.hymate.client.HymateClient"
+    ],
+    "main": [
+      "com.mubioh.hymate.Hymate"
+    ]
+  },
+  "mixins": [
+    "hymate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	com/mubioh/hymate/mixin/TitleScreenMixin	Lnet/minecraft/client/gui/screen/SplashTextRenderer;	splashText	field_2586
+METHOD	com/mubioh/hymate/mixin/TitleScreenMixin	()Lnet/minecraft/text/Text;	getMultiplayerDisabledText	method_44692
